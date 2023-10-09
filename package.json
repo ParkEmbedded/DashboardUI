@@ -1,0 +1,34 @@
+{
+  "name": "park-embedded",
+  "version": "8.92.0",
+  "description": "Park Embdedded is a Linux distritbution that runs on HTML.",
+  "main": "mainframe-rt.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killopper2233/Questbook.git"
+  },
+  "keywords": [
+    "Embedded",
+    "os"
+  ],
+  "author": "Park Technbologies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/killopper2233/Questbook/issues"
+  },
+  "homepage": "https://github.com/killopper2233/Questbook#readme",
+  "dependencies": {
+    "electron": "^26.3.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.3",
+    "x11": "^2.3.0"
+  }
+}
