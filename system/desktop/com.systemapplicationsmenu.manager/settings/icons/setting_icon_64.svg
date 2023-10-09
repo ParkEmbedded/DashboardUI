@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>setting_icon_64</title>
+	<defs>
+		<image  width="42" height="42" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAAXNSR0IB2cksfwAAAe9QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////E09WKQAAAKV0Uk5TAEHs/78Dg+QSo/U0xFYM4Hkr8JoddE0OEXz9zykBHGJnCanMbQJE64YWBjiO5f5b85yb+uJz0tgHBHtxGxDppJQ5JPb4ya2x1siYii4KQqwm8Um4Pe2Pp67yXOMYRd8+BcCgE9uT3LcXeLOllg3RQNMPNfvLXllgkSdS9yO6xUrmQ6EofoKoMBVyTM3aVbBOVGiXpn0sFPyQIm+iMiW7dpl3IOg3wQT3qgAAAhZJREFUeJyNlGdXE0EUhicMoIIQxQRJICiGgAZcAjH0gCBiFIOiRkqQJkVAVFB6tQCWYO+FIv5Qt0xPzm7eT3ue+5zZ2bl3FgA+pgSIkpgE9JOMTXjgoIF6iKgpqQbqYaLCNH0z3UzVI/rq0QyqHoslWKyZx9WHLJudqtk5DhXmnjiZR9RT0O7MtzhcBU7IpvD0GeAuKj4LpRJsFqhLeUrLvFDIOV+5Wquo1Mwqp2hEp1pTa4xNmFGrmP66OFRYr6jn4zGhtwGAxgsibbrYfClgF+llF7giIE/L1aC8q9ZrgixdB61tHDHfQCfo9vGvuym34VaAASET6UuSVaLcfjtdYcF2inxMu90dBHd2YWhNQSjczY7GHbxsTy9hff2IDXBTdHcQ4SGGDSNm41THCMLtlN0LIzbKD+cYwuMU+fEh3OfMiQcIt1D2EI/Bo0lWnXqM8JMcjKY95FRm2K3S6QjNaq+ZY1o4OE/NhUWmN81L8tcvQzYrxF1d4wrhpyAf8hku8StLWmxtQuEZeN4kIBgoe7G+ETXv3k0ASkUYO8o1eBmKx9Qu16t4VO3K9pUbm/hH8FobtnB/1IWS3kTUmrSFj/CtPLzj7yaq3gvrmz/kBU0fCyEccWB189PnLy7l4SsZcjnfvlvUrv34+es3iI47QtXQnxgCk22qRir1Vea3sK1vgh2q7hqoW1TdM1D/4hsJ9/8Jpf879VeRYkCeTwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #0d56fe } 
+	</style>
+	<path id="Shape 1" class="s0" d="m0 5c0-2.8 2.2-5 5-5h54c2.8 0 5 2.2 5 5v54c0 2.8-2.2 5-5 5h-54c-2.8 0-5-2.2-5-5z"/>
+	<use id="settings-cogwheel-button" href="#img1" x="11" y="11"/>
+</svg>

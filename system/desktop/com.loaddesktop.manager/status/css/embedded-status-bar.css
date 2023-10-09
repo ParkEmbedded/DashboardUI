@@ -1,0 +1,28 @@
+/* Customization on the status bar can be found within this CSS file. */
+
+* {
+    user-select:  none;
+}
+body {
+    width: auto;
+    height: auto;
+
+}
+ 
+#embedded-status-bar span {
+    padding: auto;
+    margin: auto;
+    position: absolute;
+    font-size: 11px;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+}
+#runner-in-con {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    
+}
+#runner

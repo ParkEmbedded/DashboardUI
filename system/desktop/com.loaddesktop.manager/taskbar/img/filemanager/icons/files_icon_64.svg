@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>files_icon_64</title>
+	<defs>
+		<image  width="47" height="41" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAApCAMAAACSoICDAAAAAXNSR0IB2cksfwAAAJlQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////SLD2LwAAADN0Uk5TABeG2Pr/7LdNATTrnQIh0v55A49E3dwd/OJQLCso/a84P+Emlvvbjo0g0B/qMhiH2YUWmXTGggAAAJhJREFUeJzt1ccSgkAQhOFBtlHErGAW02LC+P4PZzhp7UxZc9///J360kQUVEKDr6JqLSa5egKnRlPkrbbL0en2JN9nOGAGkk9Zj2wo+BHvMZ5MZz/Ng88KAndbRPkyVvhXyUrnsd7oPLZKnym9VXp477333oveqrilQuUL2qn8ng7cf0kdT/w/CpXn98Ncrjfz38KE9wfRE9BUKM5o+u2YAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #c43d3d } 
+	</style>
+	<path id="Shape 1" class="s0" d="m0 5c0-2.8 2.2-5 5-5h54c2.8 0 5 2.2 5 5v54c0 2.8-2.2 5-5 5h-54c-2.8 0-5-2.2-5-5z"/>
+	<use id="folder-solid" href="#img1" x="8" y="11"/>
+</svg>

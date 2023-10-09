@@ -1,0 +1,28 @@
+#embedded-status-bar {
+    background: red;
+    color: #ffffff;
+}
+/****
+
+When editing or creating custom code, you can change how the status bar looks by changing the color.
+
+***/
+body {
+    overflow: hidden;
+    width: 1000px;
+    height: 1000px;
+    min-width: 100%;
+    min-height: 100%;
+    user-select: none;
+    
+}
+#embedded-status-bar {
+    background: #546e7a;
+
+}
+#col-2 {
+    margin-top: 110%;
+}
+.navbar {
+    background: #546e7a;
+}

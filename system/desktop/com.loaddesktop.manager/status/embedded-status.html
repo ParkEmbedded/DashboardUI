@@ -1,0 +1,81 @@
+
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no" />
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+         
+    </head>
+
+    <body onload="loadCurrentSSIDInfo()" ononline="updateIndicator()" onoffline="updateIndicator()">
+        <script> // get time,
+            $(document).ready(function() {
+            clockUpdate();
+            setInterval(clockUpdate, 1000);
+            })
+
+            function clockUpdate() {
+            var date = new Date();
+            var mid;
+            $('#clock').css({'color': '#fff'});
+            function addZero(x) {
+                if (x < 10) {
+                return x = '0' + x;
+                } else {
+                return x;
+                }
+            }
+
+            function twelveHour(x) {
+                if (x > 12) {
+                mid=' pm';
+                return x = x - 12;
+                } else if (x == 0) {   
+                return x = 12
+                } else {
+                mid=' am'; 
+                return x;
+                }
+            }
+
+            var h = addZero(twelveHour(date.getHours()));
+            var m = addZero(date.getMinutes());
+            var s = addZero(date.getSeconds());
+
+            $("#clock").text(h + ':' + m + mid)
+            }
+        </script>
+        <script>
+            function loadCurrentSSIDInfo() {
+       
+                document.getElementById('network-id').textContent = navigator.onLine ? 'online' : 'offline';
+            }
+        </script>
+    <div class="container-full"> <!--- Seperate this container from the other -->
+            <div class="row d-flex">
+                <div id="embedded-status-bar" class="d-flex flex-column navbar fixed-top py-3 navbar-expand-lg">
+                    <div class="col-sm">
+                        <span id="clock" class="fixed-top text-end" style="margin-left: -14px;"></span> <!-- clock -->
+
+                        <div class="col-sm">
+                            <span id="app-notifs" class="fixed-top text-center"><i class="fafa-grid"></i>Dropdown</span>
+                        </div>                   </div>
+
+                    <div class="col-sm">
+                        <span id="network-id" class="ml-4 fixed-top text-start">Running in Developer Mode</span>
+                    </div>
+                    
+                    </div> 
+                    <style>
+                        #embedded-status-bar {
+                            background-color: #212121;
+                            color: #ffffff;
+                        }
+                    </style>
+                </div>
+            </div>
+    </div>  
+
+    </script>
+</body>
+</html>

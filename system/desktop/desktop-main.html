@@ -1,0 +1,78 @@
+<!-- Render this inside a container. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!---<script type="text/javascript" src="ROOT/JS/jquery-3.4.1.min.js"></script>--->
+    <title>Embedded Rendering Service 2.1</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            max-width: 200%;
+            max-height: 200%;
+        }
+        #app-bar {
+        width: 45%;
+        height: 100%;
+        background: rgb(34, 34, 34);
+        /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11px);
+        -webkit-backdrop-filter: blur(20px); */
+        position: absolute;
+        right: 70%;
+        }
+        .desktop {
+             background-image: url('img/wallpapers/Questbook-Embedded-triangles.jpg');
+             background-repeat: no-repeat;
+             background-size: cover;
+             backdrop-filter: blur(20px) saturate(120%) contrast(200%);
+             background-position: center;
+        }
+        #rsystem-widget-default {
+            height: 100%%;
+            width: 55%;
+            background: rgba(147, 20, 20, 0.24);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            position: relative;
+            border-radius: 25px;
+            top: 33%;
+            left: 3%;
+            bottom: 0;
+            right: 0;
+            color: #ffffff; /*default*/
+            bottom: 0;
+            content: "welcone";
+        }
+        #system-widget-appbar {
+            height: 120%;
+            width: 75%;
+            background: rgb(51, 50, 50);
+            position: relative;
+            border-radius: 25px;
+            top: 35%;
+            left: 3%;
+            bottom: 3%;
+            right: 0;
+            color: #ffffff; /*defau;t*/
+            bottom: 0;
+            content: "welcone";
+        }
+        #display-textbar {
+            position: absolute;
+            top: 34px;
+            justify-content: center;
+            font-size: 34px;
+        }
+</style>
+</head>
+<body class="m4-cloak" data-role="touch">
+    <div class="desktop">
+</div>
+</body>
+</html>
